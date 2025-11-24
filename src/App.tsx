@@ -183,7 +183,7 @@ function App(): ReactElement {
 							<CardHeader>
 								<CardTitle>Challenge 4: Custom Comparison (arePropsEqual)</CardTitle>
 								<CardDescription>
-									These UserCards rerender every 2 seconds because of the lastUpdated timestamp, even though the display
+									These UserCards rerender every 3 seconds because of the lastUpdated timestamp, even though the display
 									data hasn't changed. Use React.memo() with a custom comparison function.
 								</CardDescription>
 							</CardHeader>

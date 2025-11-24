@@ -1,6 +1,6 @@
-# React Performance Interview Challenge
+# React Interview
 
-Welcome to the React Performance Interview Challenge! This project contains several intentional performance issues and code quality problems that you'll need to identify and fix.
+This project contains several intentional performance issues and code quality problems that you'll need to identify and fix.
 
 ## Setup
 
@@ -8,8 +8,8 @@ Welcome to the React Performance Interview Challenge! This project contains seve
 2. Clone your fork locally:
 
     ```bash
-    git clone <your-fork-url>
-    cd react-interview-challenge
+    git clone <your-fork-url> react-interview
+    cd react-interview
     ```
 
 3. Install dependencies:
@@ -115,7 +115,7 @@ This project uses:
 
 **File:** `src/components/UserCard.tsx`
 
-**Problem:** UserCards rerender every 2 seconds due to a `lastUpdated` timestamp that doesn't affect the display.
+**Problem:** UserCards rerender every 3 seconds due to a `lastUpdated` timestamp that doesn't affect the display.
 
 **Task:**
 
